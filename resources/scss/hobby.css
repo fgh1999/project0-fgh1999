@@ -1,0 +1,15 @@
+.message-box {
+  margin: 1px 3px 2px 2px;
+}
+
+.message-box {
+  font-size: 14px;
+}
+.message-box ul > li {
+  color: red;
+}
+.message-box ol > li {
+  color: blue;
+}
+
+/*# sourceMappingURL=hobby.css.map */

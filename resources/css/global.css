@@ -1,8 +1,24 @@
+@media print {
+    body {
+        font-size: 11px;
+    }
+}
+@media screen {
+    body {
+        font-size: 13px;
+    }
+}
+@media screen and (max-height: 300px){
+    p {
+        line-height: 0.95%;
+    }
+}
 html {
     font-family: SansSerif, Serif, serif;
-    background-color: #f7ecb5;
+    background-color: #f7f5c4;
 }
 
 p {
+    color: rgba(34,34,34,0.93);
     text-indent: 2em;
 }

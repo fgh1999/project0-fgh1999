@@ -7,6 +7,20 @@
     margin-bottom: 10px;
 }
 
-#self-intro-detail div {
-    margin: 2px 2px 1px 3px;
+.more-items {
+    color: #014c8c;
+}
+@media only screen and (hover){
+    .more-items:hover {
+        color: #5cb3fd;
+    }
+}
+.container > div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#self-intro-detail {
+    font-size: large;
+    vertical-align: center;
 }

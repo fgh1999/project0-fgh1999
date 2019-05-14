@@ -1,0 +1,19 @@
+//$color: red;
+$fontSize: 14px;
+
+%message {
+  margin: 1px 3px 2px 2px;
+}
+
+.message-box {
+  @extend %message;
+  font-size: $fontSize;
+
+  ul > li {
+    color: red;
+  }
+
+  ol > li {
+    color: blue;
+  }
+}
